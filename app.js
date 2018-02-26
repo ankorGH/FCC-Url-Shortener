@@ -4,9 +4,7 @@ const mongoose = require("mongoose");
 const schema = mongoose.Schema;
 
 const port = process.env.PORT || 3000;
-const MONGODB_URI =
-  process.env.MONGODB_URI ||
-  "mongodb://ankor:dbpass6789@ds259897.mlab.com:59897/urlshortener";
+const MONGODB_URI = process.env.MONGODB_URI;
 
 mongoose.Promise = global.Promise;
 mongoose.connect(MONGODB_URI);
