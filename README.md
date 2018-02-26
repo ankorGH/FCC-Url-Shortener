@@ -5,7 +5,7 @@ What This Micro service aims to do is give users short url
 
 # Usage
 
-``` https://fccshortener.herokuapp.com//new/https://www.ghanaweb.com ```
+``` https://fccshortener.herokuapp.com/new/https://www.ghanaweb.com ```
 
 returns 
 
