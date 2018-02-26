@@ -28,7 +28,7 @@ let urlShortener = mongoose.model("urls", urlShortenerSchema);
 const regexUrl = /((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[\w]*))?)/;
 
 app.get("/", function(req, res) {
-  res.send(__dirname + "README.md");
+  res.send(__dirname + "/README.md");
 });
 
 app.get("/:redirectUrl", function(req, res) {
